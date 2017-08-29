@@ -11,11 +11,12 @@
       <h1>Portland Salmon Cookie Stands</h1>
       <span class="by-line">.:by Langston McClarron:.</span>
       </header>
+      <img src="fishies.jpg" class="edited-image">
       <main>
   <table>
     <thead>
       <tr>
-          <th></th>
+          <th>Location</th>
           <th>10am</th>
           <th>11am</th>
           <th>12pm</th>
@@ -29,7 +30,20 @@
   </thead>
   <tbody id="cookie-calc"></tbody>
   </table>
+<br><br><br><br><br>
 </main>
+
+<form name="newStoreName">
+  <label>Store Name</label>
+  <input name="newStore"><br>
+  <label>Min. Customers</label>
+  <input name="minCustomers" type="number"><br>
+  <label>Max. Customers</label>
+  <input name="maxCustomers" type="number"><br>
+  <label>Avg. Cookies Sold</label>
+  <input name="avgCookies" type="number"><br>
+  <input type="button" value="Enter a New Store" onClick="createNewStore()"><br>
+</form>
     <footer>
       <p>&copy;2017 Portland Cookie INC<p>
     </footer>
